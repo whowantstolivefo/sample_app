@@ -16,17 +16,34 @@ end
 group :assets do
   gem 'sass-rails',   '3.2.5'
   gem 'coffee-rails', '3.2.2'
+<<<<<<< HEAD
   gem 'uglifier', '1.2.3'
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
+=======
+
+  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  # gem 'therubyracer', :platforms => :ruby
+
+  gem 'uglifier', '1.2.3'
+end
+
+>>>>>>> origin/master
 gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
 end
 
+<<<<<<< HEAD
+=======
+group :production do
+  gem 'pg', '0.12.2'
+end
+
+>>>>>>> origin/master
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

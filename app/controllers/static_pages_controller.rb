@@ -5,7 +5,17 @@ class StaticPagesController < ApplicationController
   def help
   end
 
+<<<<<<< HEAD
   def about
   end
 
 end
+=======
+  def about  	
+  end
+
+  def contact  	
+  end
+  
+end
+>>>>>>> origin/master
